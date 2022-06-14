@@ -31,3 +31,4 @@ void function4(int *x)
     *x*=*x;
 }//özet: tanımlamada & ile tanımlama yeni, eğer böyle yaparsan alians olur bu da değişkenin ikinci bir ismi gibi olur, * ile tanımlama normal pointer
 //diğer yeni özelliğimiz fonksiyona(int &)ile gödermek böyle tanımladığımızda değiişkenin normal sadece adıyla göndeririz ancak fonsiyon değişkenin adresini alır
+//şunuda belirtelim int &b; şeklinde yapacağın tanımlama hatalı olur. b birinin ikinci ismi olacak diyorsun eee kimin der derleyici:)
