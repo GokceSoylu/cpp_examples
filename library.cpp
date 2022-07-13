@@ -1,10 +1,10 @@
 /* isalpha isdigit isalnum islower isupper tolower toupper strlen strcmp strcat strcpy*/
 #include <iostream>
 #include <cstring>
+#include <cctype>
 using namespace std;
 int main()
 {
-    int a=2;
     char x='n', y[20]="necmiye", z[20]="Soylu";
     if(isalpha(x))
         cout<<"\nx is a latter --> "<<isalpha(x);
@@ -22,6 +22,9 @@ int main()
         cout<<"\nx is a lower latter ";
     else if(isupper(x))
         cout<<"\nx is a capital latter";
+    cout<<endl<<"we convert x capital latter ";
+    x=toupper('n');//toupper fonksiyoonu ASCII karşiliğini döndürür bu yüzden bir karektere atamalısın 
+    cout<<x;
     cout<<endl<<strlen(y);
     cout<<endl<<strcmp(z,y);
     strcat(y,z);
