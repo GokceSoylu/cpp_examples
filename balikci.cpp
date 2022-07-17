@@ -32,11 +32,13 @@ class cupra:public balik
 };
 int main()
 {
-    fstream file;
+    ofstream file;
+    ifstream fl("hesap.txt");
     levrek levrek;
     palamut palamut;
     cupra cupra;
     int l, p, c, sum=0;
+    string a="";
     cout<<"\nbaliklerin adedini giriniz\nlevrek ";
     cin>>l;
     cout<<"\npalamut ";
@@ -46,6 +48,8 @@ int main()
     sum=levrek.hesapla(l)+palamut.hesapla(p)+cupra.hesapla(c);
     file.open("hesap.txt",ios::app);
     file<<"hesap : "<<sum<<endl;
-    cout<<"\n "<<sum;
     file.close();
+    while(getline(fl,a))
+        cout<<a<<endl;
+    fl.close();
 }
