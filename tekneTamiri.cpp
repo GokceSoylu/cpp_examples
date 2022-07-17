@@ -17,10 +17,10 @@ int main()
         else if(strcmp(row,"orta")==0) r=1;
         else if(strcmp(row,"uzun")==0)r=2;
         else{ cout<<"\ntahta bıyunda hatalı giris yapılmıstır\n"; break;}
-        if(strcmp(column,"ince")==0) c=0;
-        else if(strcmp(column,"kalin")==0) c=1;
+        if(strcmp(column,"ince")==0) c=1;
+        else if(strcmp(column,"kalin")==0) c=0;
         else { cout<<"\ntahta kalınlıgı girisinde hata yapılmıstır";  break;}
-        sum+=tablo[r][c];
+        sum+=adet*tablo[r][c];
         cout<<"\ndevam etmek icin 1 / durdurmak icin 0 giriniz  ";
         cin>>a;
     }

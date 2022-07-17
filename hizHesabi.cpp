@@ -17,5 +17,7 @@ int hiz(int t)
         return 4*3;
     if(t>12)
         return 4*3-t*3;
+    else
+        cout<<"\nhiz 0-16 arasinde olmalidir\nhatali giris yapilmiştir";
 
 }
