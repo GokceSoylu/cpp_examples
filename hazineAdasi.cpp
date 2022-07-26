@@ -13,21 +13,8 @@ int main()
         for(j=0;j<7;j++)
             counter[matris[i][j]]++;
     for(i=0;i<10;i++)
-    {    
-        max=counter[i];
-        max_index=i;
-        for(j=i+1;j<10;j++)
-            if(counter[j]>max)
-            {
-                max=counter[j];
-                max_index=j;
-            }
-        tmp=counter[i];
-        counter[i]=counter[max_index];
-        counter[max_index]=tmp;
-        yedek[i]=max;
-    }  
-    std::cout<<std::endl;
-    for(i=9;i>=0;i--)
-        std::cout<<" "<<yedek[i];
+        for(j=0;j<10;j++)
+            if(counter[j]==i)
+                std::cout<<" "<<j;
+        
 }                     
