@@ -15,7 +15,7 @@ class Number
         {
             return 2*x;
         }
-        Number() : z(15)//const değikenşn atamasına dikkat edelim.
+        Number() : z(15)//const değikenin atamasına dikkat edelim.
         {
             x=5, y=10;
         }
