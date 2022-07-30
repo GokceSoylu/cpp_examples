@@ -19,7 +19,7 @@ int main()
             //std::cout<<std::endl<<" "<<i<<" "<<x<<" "<<y;
         }
     }
-        std::cout<<"\nilk 100'de "<<counter100<<"\nilk 500'de "<<counter500<<"\nilk 1000'de "<<counter1000<<"\nilk 1500'de "<<counter1500;
+    std::cout<<"\nilk 100'de "<<counter100<<"\nilk 500'de "<<counter500<<"\nilk 1000'de "<<counter1000<<"\nilk 1500'de "<<counter1500;
 }
 void count(int counter, int i, int *x, int *y)
 {
