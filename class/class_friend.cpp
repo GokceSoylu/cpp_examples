@@ -59,3 +59,8 @@ void change(X &x)
 {
     x.x+=100;
 }
+/*& tanımlamada kullanırsan birinin ikinci ismi olur
+Eger fonksiyon paremetresinde & yaparsan değişkeni normal adıyla gönderirsin ama fonksiyon adresini alır :)
+Arkadaş fonksiyon başka fonksiyona gerek kalmaksızın private degere ulaşabilir. Yani kendi fonksiyonu gibi oluyor.
+Sınıfların arkadaşlığında ise bir nesne üzerinden başka nesneye ulaşabiliyoruz. 
+Bu nesnenin içinde, şu fonksiyon ile diğer sınıftaki private değişkeni değiştir*/
