@@ -1,4 +1,4 @@
-#include <iostream>//normalde kod çalişiyor eğer çalişmamışsa sayıların büyükm olmasından kaynaklanıyor olabilir. sayıları küçülterek deneyebilirsiniz
+#include <iostream>//normalde kod çalişiyor eğer çalişmamışsa döngülerdeki sayıların büyükm olmasından kaynaklanıyor olabilir. sayıları küçülterek deneyebilirsiniz
 #include <math.h>
 using namespace std;
 long int ahlak_sayisi(int, int, int);
@@ -7,18 +7,23 @@ int main()
 {
     int i, j, k, counter=0;
     long int number;
-    for(i=2;i<100;i++)
+    for(i=2;i<10000;i++)
     {
         if(asal(i)) continue;
-        for(j=2;j<100;j++)
+        for(j=2;j<10000;j++)
         {
             if(asal(j)) continue;
-            for(k=2;k<100;k++)
+            for(k=2;k<10000;k++)
             {
                 if(asal(k)) continue;
                 number=ahlak_sayisi(i,j,k);
-                if(number>10000000 && number<100000000)
+                if(number>=10000000 && number<=100000000)
+
+                {
                     counter++;
+                    //cout<<endl<<i<<" "<<j<<" "<<k<<"  "<<number;
+                }    
+                    
             }
         }
     }
