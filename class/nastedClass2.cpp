@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>//alt sınıf private olsa neler değişirdi. y'yi tanımlayabilir miydik yada y2'yi?
 class A 
 {
     public:
@@ -14,10 +14,10 @@ public:
 class C : public B 
 {
     public:
-        B y;
+        B y;//burada B sınıfından nesne tanımlayabilirsin.
         A::B y2;
-        C *x;
-        C *x2;
+        C *x;//ancak C sınıfından nesne tanımlayamazsın çünkü C sınıfı henüz tmamalanmadı.
+        C *x2;//pointer tanımlanabilir.
         int k=10;
     };
 };
@@ -35,3 +35,4 @@ int main()
     std::cout<<std::endl<<sinif3.y2.n;
     std::cout<<std::endl<<sinif4.x2->k;
 }
+//gördüğün gibi sınıf içi sınıf oluşturabiliyorsun. hatta sınıf içi sınıf türemiş bir sınıfta olabilir.
