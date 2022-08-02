@@ -68,13 +68,13 @@ class Student
                 sum+=grade[i];
             return (double)sum/number; // buraya dikkat edelim! iki int değeri bölerek double değer elde edemeyiz, int değer elde ederiz. Burada tip dönüşümü yapıyoruz.
         }
-        ~Student()
+        /*~Student()
         {
             cout<<"\n\ndelete on";
             delete[]grade;
             cout<<"\ndelete of\n";
         }
-        
+        */
 };
 int main()
 {
