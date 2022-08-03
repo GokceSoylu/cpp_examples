@@ -6,7 +6,7 @@ class Arrays
     
     int number, *p;
     public:
-        Arrays(int number):number(number)
+        Arrays(int number=6):number(number)
         {
             
             p=new int[number];
