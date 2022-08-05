@@ -2,6 +2,8 @@
 using namespace std;
 class Person
 {
+    //protected:  protected-> base class and inheritance class ca access theese varaibles.
+    //pravite -> just base class can access the varaibles
     long int id;
     string name;
     public:
@@ -37,11 +39,18 @@ class Student :public Person
         {
             cout<<" "<<std_num<<" "<<dep<<endl;
         }
+        /*void set_name(string name)
+        {
+            this->name=name;
+        }
+        */
 };
 int main()
 {
     Student s(44434454596,"Necmiye",2010213001,"computer engineering");
     s.Person::print();//👍🏻
     s.print();//✌🏻
-    
-}
+    s.set_name("Necmiye Soylu");
+    s.Person::print();
+}//to sum up if functions name are not same you can write inheritance obje.function name directluy but, if their name are same you should
+//write obje.base_class_name:function_name()
