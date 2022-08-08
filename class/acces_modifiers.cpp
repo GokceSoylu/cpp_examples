@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>//There is really importent deffances between default and writed by us copy fuctions. If you use default function poiters adress bocame same
 using namespace std;
 class Base
 {

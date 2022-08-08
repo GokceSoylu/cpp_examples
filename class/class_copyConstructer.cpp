@@ -18,7 +18,7 @@ class Numbers
             p=new int;
             *p=z;
         }
-        Numbers(Numbers &n) : z(n.z)
+        Numbers(Numbers &n) : z(n.z)//this is  a constructer function. yeni nesne oluşturacak ama kendisini çalıştıran nesneye paremetre olarak aldığı nesnenin değerlerini atyarak
         {
             x=n.x;
             y=n.y;
