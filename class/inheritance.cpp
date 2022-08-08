@@ -52,5 +52,6 @@ int main()
     s.print();//✌🏻
     s.set_name("Necmiye Soylu");
     s.Person::print();
-}//to sum up if functions name are not same you can write inheritance obje.function name directluy but, if their name are same you should
+}//to sum up if functions name are not same you can write derived obje.function name directly but, if their name are same you should
 //write obje.base_class_name:function_name()
+//overriding ☝🏻
