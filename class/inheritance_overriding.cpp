@@ -2,9 +2,8 @@
 using namespace std;//same name function
 class Person
 {
-    protected:
-        long int id;
-        string name;
+    long int id;
+    string name;
     public:
         Person(long int id, string name):id(id),name(name){}
         long int get_id()
@@ -25,7 +24,7 @@ class Person
             cout<<endl<<name<<" "<<id;
         }
 };
-class Student: public Person
+class Student: private Person
 {
     long int id;
     string dep;
@@ -41,8 +40,6 @@ class Student: public Person
         }
         void set(string name, long int id, string dep, long int id_std)
         {
-            //this->Person::name=name;
-            //this->Person::id=id;
             Person::set(name,id);
             id=id_std;
             this->dep=dep;
