@@ -8,7 +8,7 @@ class Arrays
     public:
         Arrays(int number=6):number(number)
         {
-            
+            std::cout<<"\nconstructer calisti\n";
             p=new int[number];
             for(int i=0;i<number;i++)
             {
@@ -16,7 +16,7 @@ class Arrays
                 p[i]=rand()%9;
             }   
         }
-        Arrays operator=(Arrays a)
+        Arrays operator=(const Arrays a)
         {
             Arrays nw(number);
             for(int i=0;i<number;i++)
@@ -42,9 +42,9 @@ int main()
     Arrays a3=a1;       
     cout<<"a3 = ";
     a3.print();   
-    cout<<"(a1=a2) = ";
-    (a1=a2).print();
-    // buraya dikkat edelim! normalde parametresiz kurucu fonsiyonumuz olmadığı için direkt a3; ifadesini kabul etmez
+    cout<<"(a1=a2) = ";//önemli bir ayrıntı daha --> = kullandığımızda constructer funtion çalışmaz direkt operator=()fonksiyonu çalışır.
+    (a1=a2).print();//ancak burada hem operator=(fonsiyonu hem constructer function çalışır.
+    // buraya dikkat edelim! normalde PAREMETRESİZ kurucu fonsiyonumuz olmadığı için direkt a3; ifadesini kabul etmez
     // ancak burada a3=a2; dediğimiz için copy function çalışır ve direkt a2 yi a3'e kopyalar. AAA bizim copy functionımız
     //yok ki! evet yok. compiler default olarak onu oluşturur.
 }
