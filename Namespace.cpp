@@ -1,8 +1,9 @@
 /* tüm mesele :: operatörü ile alakalı. Bu operatör scope demek yani buraki degiskene degilde bu operatorden once yazan alana bak demek istiyor
     en alttta class ın fonksiyonu yazdığımız kısma bakalım Try::atma dedik yani buralada yok Trry'ın içerisindeki fonsiyondaan bahsediyorum git 
-    onun scob'una bak diyoruz. Tanımlanan isim alanlarında da aynı şey var. globala ulasmak içinse ::'dan once hiç bir sey yazmayız global itse scobsuz:)*/ 
+    onun scob'una bak diyoruz. Tanımlanan isim alanlarında da aynı şey var. globala ulasmak içinse ::'dan once hiç bir sey yazmayız global iste
+ scobsuz:)*/ 
 #include <iostream>
-using namespace std;//std de bir isim uzayı bunda da :: kullanılır
+using namespace std;//std de bir isim uzayı bunda da :: kullanılır.
 int a=20;
 namespace dev1
 {
