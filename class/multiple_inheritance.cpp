@@ -54,4 +54,5 @@ int main()
 //?     ->ancak multiple inheritance'da bir türemiş sınıfınfın hem kendisini hem base sınıfını yazamazsın. mesala bu örnek için AB sınıfı
 //? hem A 'dan hem O sınıfından türedi yazamayız. Çünkü A sınıfı zaten O dan türedi ve Biz AB A dan türedi dediğmizde zaten O daki özelliklere sahip oluyoruz.:))
 //?     ->bunların yanı sıra AB sınıfı hem A hem B sayesinde O sınıfının özelliklerine sahip ancak dediğimiz gibi hem A hem B den geldiği için 
-//? O daki bir özelliğe erişeceğimiz zaman karışılık oluyor. 44. satırda hangi o diye sorrar A'daki mi Bdekimi bunu belirtmemiz lazım :))
+//? O daki bir özelliğe erişeceğimiz zaman karışılık oluyor. 44. satırda hangi o diye sorrar A'daki mi Bdekimi bunu belirtmemiz lazım :)) 
+//todo yok mu bunun ☝🏻 bir çözümü? olmaz mı tabi var vitual.cpp dosyasına göz atalım:)) 
