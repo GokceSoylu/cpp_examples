@@ -16,8 +16,8 @@ class C : public B
     public:
         B y;//burada B sınıfından nesne tanımlayabilirsin.
         A::B y2;
-        C *x;//ancak C sınıfından nesne tanımlayamazsın çünkü C sınıfı henüz tmamalanmadı.
-        C *x2;//pointer tanımlanabilir.
+        C *x;//* pointer tanımlanabilir.
+        C *x2;//* ancak C sınıfından nesne tanımlayamazsın çünkü C sınıfı henüz tmamalanmadı.
         int k=10;
     };
 };
