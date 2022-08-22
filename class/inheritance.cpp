@@ -2,7 +2,7 @@
 using namespace std;
 class Person
 {
-    //protected:  protected-> base class and inheritance class ca access theese varaibles.
+    //protected:  protected-> base class and inheritance class can access these varaibles.
     //pravite -> just base class can access the varaibles
     long int id;
     string name;
