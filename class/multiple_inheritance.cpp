@@ -30,7 +30,7 @@ class B: public O
             cout<<endl<<"b sinifi ";
         }
 };
-class AB: public A//, public B
+class AB: public A, public B //, public O
 {
     protected:
         int ab;
@@ -41,7 +41,7 @@ class AB: public A//, public B
         }
         void try_()
         {
-            o=40;
+            A::o=40;
         }
 };
 int main()
@@ -50,6 +50,8 @@ int main()
 }
 
 // todo Neler öğrendik?
-//?   ->multiple inheritance mümkün. hem busınıftan hem şu sınıftan türedim diyebilir. 
-//?   ->ancak multiple inheritance'da bir türemiş sınıfınfın hem kendisini hem base sınıfını yazamazsın. mesala bu örnek için AB sınıfı
+//?     ->multiple inheritance mümkün. hem busınıftan hem şu sınıftan türedim diyebilir. 
+//?     ->ancak multiple inheritance'da bir türemiş sınıfınfın hem kendisini hem base sınıfını yazamazsın. mesala bu örnek için AB sınıfı
 //? hem A 'dan hem O sınıfından türedi yazamayız. Çünkü A sınıfı zaten O dan türedi ve Biz AB A dan türedi dediğmizde zaten O daki özelliklere sahip oluyoruz.:))
+//?     ->bunların yanı sıra AB sınıfı hem A hem B sayesinde O sınıfının özelliklerine sahip ancak dediğimiz gibi hem A hem B den geldiği için 
+//? O daki bir özelliğe erişeceğimiz zaman karışılık oluyor. 44. satırda hangi o diye sorrar A'daki mi Bdekimi bunu belirtmemiz lazım :))
