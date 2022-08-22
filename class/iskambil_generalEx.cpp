@@ -5,7 +5,7 @@
 using namespace std;
 class Card
 {
-    //protected://! sınıfın kendisi aynı özelliğe sahip olduğu için buradak değişkenlere ulaşabilir. Ancak sınıfın değikeni o özelliğe ulaşamaz
+    protected://! sınıfın kendisi aynı özelliğe sahip olduğu için buradak değişkenlere ulaşabilir. Ancak sınıfın değikeni o özelliğe ulaşamaz
     // * buradaki mantık şu. Alt sınıfın (mirasçı arkadaşın) üstündeki elemanlara ulaşma hakkı yok. ancak buradaki ozelliklerin hepsine kendide sahip olduğu için bu özelliklere birşeyler atayabilir ama başka bir sınıfın değişkenine bir şey atamıyor
     //*kendi bu ozelliğe sahip ve ona atama yapıyor
         int number;
