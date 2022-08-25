@@ -1,11 +1,12 @@
-# downcastig 
+# Downcastig 
 
 Downcasting türemiş sınıfı yeniden base sınıf haline getirmek diyebiliriz. dedik😁. 
 
 base sınıf tipinde pointer tanımlıyoruz bu pointera türemiş sınıfın nesnesinin adresini atıyoruz. pointerda kendi size kadar alana bakacağı
 icin pointrla ulaştığımızda nesneye bir nevi türmiş sınıftaki özellikklerini kaybediyor. onlara ulaşamıyoruz.[örnek](https://github.com/NecmiyeSoylu/cpp_examples/blob/master/class/polimorphism.cpp)
 
-## upcasting
+
+# Upcasting
 
 aaslında upcasting'de bunu geri alma alma işlemi. Base tipindeki pointera , türemiş sınıf tipindeki  baska pointerra atıyoruz.
 
