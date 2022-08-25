@@ -40,7 +40,7 @@ run time polimorphizm
 
 zaten overloded ve overridingle alakalı bir sürü örnek çözdük. bunları anldık. burada virtual üzerinde duracağız.
 
-### virtual funtion: 
+## virtual funtion: 
 
 iki tane sınıfımız var Base ve derivade şimdi bu sunuflarda aynı isimli metodlar var. Şu anda bir sorun yok değilmi herkes kendi
 
