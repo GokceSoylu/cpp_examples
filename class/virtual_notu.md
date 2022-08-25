@@ -1,6 +1,6 @@
 # virtual
 
-şimdi dostum burada virtual functiun'dan bahsetmeyeceğim. istediğin polimprphism/virtual funcs ise [gidiniz](polimorphism notu)
+şimdi dostum burada virtual functiun'dan bahsetmeyeceğim. istediğin polimprphism/virtual funcs ise [gidiniz](phttps://gist.github.com/egvrcn/a8e24faf00006f1d06e11c55bf0a2110)
 
 virtual'ı n bir başka kullanım şekli sınıfı virtual yapmaktır. multiinhertance sırasında yaşadığımız bir sorun var. iki tane 
 
