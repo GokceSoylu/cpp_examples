@@ -16,7 +16,7 @@ ayni isimli method yada özellik olmasi durumunda herkes once kendi scobundakine
 
 base class ın aynı isimlı method yada ozelliğne ulaşmak isterse :: işaretini kullanır.
 
---- buraya kadar virtual kullanmaya gerek yok. :: bunu kullanmayı bilsek yeter. [örnek](https://github.com/NecmiyeSoylu/cpp_examples/blob/master/class/polimorphism.cpp)---
+--- buraya kadar virtual kullanmaya gerek yok. :: bunu kullanmayı bilsek yeter. [örnek](https://github.com/NecmiyeSoylu/cpp_examples/blob/master/oop/polimorphism.cpp)---
 
 ## Polimorphism Nedir
 
@@ -50,7 +50,7 @@ bellekte kapladığı yer belli olduğu için alt sınıfın özelliklerine ula�
 
 ulaşabilir. Ancak iki fonsiyonunda bellekte kapladığı alan aynı biz diyoruz ki o zaamn bu base class'ın methoduna ulaşacağına aynı isimli 
 
-derivate calss'ın methoduna ulaşsın iişte tam da bub için methodu virtual yapıyoruz [ornek](https://github.com/NecmiyeSoylu/cpp_examples/blob/master/class/polimorphism_virtual.cpp)
+derivate calss'ın methoduna ulaşsın iişte tam da bub için methodu virtual yapıyoruz [ornek](https://github.com/NecmiyeSoylu/cpp_examples/blob/master/oop/polimorphism_virtual.cpp)
 
-virtual'ın bir özelliği daha var ona ulaşmak için [gidiniz](https://github.com/NecmiyeSoylu/cpp_examples/blob/master/class/virtual_notu.md)
+virtual'ın bir özelliği daha var ona ulaşmak için [gidiniz](https://github.com/NecmiyeSoylu/cpp_examples/blob/master/oop/virtual_notu.md)
 
