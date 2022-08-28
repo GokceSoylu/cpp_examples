@@ -20,7 +20,12 @@ class Derivade: public Base
 int main()
 {
     Derivade x(5), y(3), z(7); 
-    Base *array;
-    array=&x;
-    
+    Base *a,*array[2]={&y,&z};
+    a=&x;//* Hey doatum neden tip dönüşümü yapmıyorsun? Çünkü deowncastigde tip dönüşümüne ihtiyaç duymayız. Base'e türemişi atraken
+    //* sorun  yaşamayız ancak türemiş = base derken tipm dönüşümü gerekir. Şöyle düşünelim türemişin içinde zaten Base'in özellikleri bukunduğu için
+    //* Base=türemiş dediğimizde adam kabul ediyor zaten bu durumda bir nevi türemiş bae 'ten ayrı kendine has özellikleride kaybediyor.
+    //* türemiş=base dediğiimizde ise base'te türemiş'in özellikleri yok ki! 
+    a->where();
+    array[0]->where();
+    array[1]->where();
 }
