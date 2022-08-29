@@ -6,7 +6,6 @@ T function_(T x, T y)
 {
     return x+y;
 }
-
 template <typename X>
 X swap_(X &x, X &y)
 {
@@ -24,5 +23,4 @@ int main()
     cout<<endl<<function_(a,b);
     cout<<endl<<function_(m,n);
     cout<<endl<<function_(x,y);
-
 }
