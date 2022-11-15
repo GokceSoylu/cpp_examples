@@ -7,7 +7,7 @@ class A
             public:
                 int n=20;
         };
-        A::B z;
+        B z;
     public:
         int m=10;
 public:
